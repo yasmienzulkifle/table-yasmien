@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+
+ul.a {
+   list-style-type:disc;
+  
+}
+
+ul.b {
+  list-style-type: circle;
+}
+
+</style>
+<body>
+<table style="width:110%">
+  <tr>
+    <th>No</th>
+    <th>Item</th>
+    <th>Transport</th>
+  </tr>
+  
+  <tr>
+    <td><b><center>Malaysia</center></b></td>
+	<td><br><ol>
+    <li>Kedah
+	<ul class="a">
+	<li>Langkawi</li>
+	<li>Gunung Jerai</li></ul>
+	
+	<li>Penang
+	<ul class="b">
+	<li>Balik Pulau</li>
+	<li>Tanjung Bungah</li></ul><br>
+	
+	</td>
+    <td>Bus<br><br>
+	Airplane</td>
+  </tr>
+  
+  <tr>
+    <td><b><center>Arab Saudi</center></b></td>
+    <td><br>
+	<ol start="3">
+	<li>Mekah</li>
+	<ol type="i">
+    <li>Masjid al-Haram</li>
+    <li>Bukit Safa</li></ol>
+    <ol type="a"start="11">
+    <li>Gua Hira</li>
+</ol>
+</li>
+	
+    <td>Airplane</td>
+  </tr>
+</table>
+
+</body>
+</html>
